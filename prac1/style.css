@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#app{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.agregar{
+    width: 100%;
+    padding: 10% 0%;
+}
+
+.agregar__nombre{
+    width: 80%;
+    height: 20px;
+}
+
+.agregar__agregar{
+    width: 16%;
+    height: 25px;
+}
+
+.frutas{
+    width: 100%;
+}
+
+.frutas__ul{
+    width: 100%;
+}
+
+.frutas__li{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    margin: 4px 0%;
+}
+
+.frutas__cant{
+    width: 10%;
+    margin-right: 1%;
+}
+
+.frutas__mas{
+    width: 6%;
+    margin: 0% 2%;
+}
+
+.frutas__menos{
+    width: 6%;
+    margin: 0% 2%;
+}
+
+.frutas__nombre{
+    width: 20%;
+}
+
+.total{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+}
+
+@media (max-width: 700px) { 
+    .agregar__nombre{
+        width: 100%;
+        height: 20px;
+    }
+
+    .agregar__agregar{
+        width: 100%;
+        height: 25px;
+        display:none;
+    }
+}
