@@ -1,1 +1,4 @@
 npm install -g @vue/cli
+vue create pro-router
+cd pro-router
+npm run serve
